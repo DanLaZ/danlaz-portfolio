@@ -1,4 +1,5 @@
 // import { useContext } from "react";
+import Intro from "./components/intro/Intro";
 
 
 
@@ -6,7 +7,7 @@ const App = () => {
     // const theme = useContext(ThemeContext);
     // const darkMode = theme.state.darkMode;
     return (
-        <div></div>
+        <div><Intro/></div>
     );
   };
   
